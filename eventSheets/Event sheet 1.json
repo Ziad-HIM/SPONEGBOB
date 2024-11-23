@@ -1,0 +1,161 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite2",
+					"sid": 615792446709374,
+					"parameters": {
+						"object": "f515b63b60d83fd3f576a4fe37d66e7removebgpreview"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "f515b63b60d83fd3f576a4fe37d66e7removebgpreview",
+					"sid": 166781100974004
+				}
+			],
+			"sid": 588076602378058
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite2",
+					"sid": 247996229322455,
+					"parameters": {
+						"object": "pngtreeacheeseburgerpngimage_13066978removebgpreview"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "pngtreeacheeseburgerpngimage_13066978removebgpreview",
+					"sid": 158098364358630
+				}
+			],
+			"sid": 192639165464730
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite2",
+					"sid": 927539297291711,
+					"parameters": {
+						"object": "VSB18AngleWhiteremovebgpreview"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "VSB18AngleWhiteremovebgpreview",
+					"sid": 606880006176418
+				}
+			],
+			"sid": 684060323118476
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite2",
+					"sid": 964659937240189,
+					"parameters": {
+						"object": "removebgpreview"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite2",
+					"sid": 329294940020632
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 175898711223065,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 259444662131936
+				}
+			],
+			"sid": 928016427643058
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite2",
+					"sid": 680956808468317,
+					"parameters": {
+						"object": "cartoongoldcoinsvectorclipartremovebgpreview"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "cartoongoldcoinsvectorclipartremovebgpreview",
+					"sid": 511705199999385
+				}
+			],
+			"sid": 156702602652830
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Screenshot_20241123_at_13821_PMremovebgpreview",
+					"sid": 664590731599267,
+					"parameters": {
+						"object": "Sprite2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "Sprite2",
+					"sid": 399196260690115
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Screenshot_20241123_at_44947_PMremovebgpreview",
+					"sid": 864161068476999,
+					"parameters": {
+						"opacity": "100"
+					}
+				},
+				{
+					"id": "set-opacity",
+					"objectClass": "Screenshot_20241123_at_45111_PMremovebgpreview",
+					"sid": 572470415795782,
+					"parameters": {
+						"opacity": "100"
+					}
+				}
+			],
+			"sid": 476868090969510
+		}
+	],
+	"sid": 131920911932957
+}
